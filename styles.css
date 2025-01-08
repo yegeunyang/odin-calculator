@@ -18,6 +18,8 @@ body {
     align-items: center;
     height: 200px;
     font-size: 50px;
+    font-family: Arial, sans-serif;
+    color: white;
 }
 
 .calculator .buttons {
