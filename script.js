@@ -29,7 +29,6 @@ function operate(operator, operand1, operand2) {
         case '/':
             if (operand2 === 0) {
                 alert("You can't divide by zero!");
-                return "";
             }
             return divide(operand1, operand2);
     }
@@ -78,7 +77,8 @@ buttons.forEach(button => {
             operator = "";
             display.textContent = operand1;
 
-            if (result === "") {
+            if (result === Infinity || result === -Infinity || isNaN(result)) {
+                operand1 = "";
                 display.textContent = "0";
             }
         } else if (button.classList.contains('clear')) {
