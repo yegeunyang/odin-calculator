@@ -9,6 +9,7 @@ This simple HTML, CSS & JavaScript project builds a browser version of calculato
 
 # Goal
 - Make a calculator that takes a number operand, followed by an operator, a  number operand, and an equal sign and displays the result.
+- This calculator can only evaluate a single pair of numbers at a time.
 - Add clear button.
 
 # Acknowledgments
